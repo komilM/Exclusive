@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -24,10 +24,23 @@
 
 .nav-menu p {
     margin-top: 10px;
-  border-bottom: 2px solid transparent;
-  transition: 0.4s;
+    border-bottom: 2px solid transparent;
+    transition: 0.4s;
+    cursor: pointer;
 }
 
 .nav-menu p:hover {
-  border-bottom: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+
+.body input{
+    width: 243px;
+    height: 38px;
+    padding-left: 20px;
+    background-color:#F5F5F5;
+    color: #282828;
+    border: none;
+    border-radius: 4px;
+    margin-top: 0px;
 }
