@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+
+.header-menu {
+    margin-top: 30px;
+    margin-left: 135px;
+}
+
+
+.header-menu p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.header {
+    display: flex;
+}
+
+
+.header img {
+    margin-top: 60px;
+    width: 892px;
+    height: 344px;
+    margin-left: 55px;
+}
+
+
+.header hr {
+    margin-top: -1px;
+    margin-bottom: 7px;
+}

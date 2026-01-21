@@ -18,8 +18,12 @@ const Nav = () => {
                 <input type="text" placeholder='What are you looking for ?' />
                 <img style={{ width: "20px", height: "20px", position: "relative", marginLeft: "-230px", marginTop: "9px" }} src={searchicon} alt="" />
                 <div className="nav-menu-2">
-                    <img src={selected} alt="" />
-                    <img src={savat} alt="" />
+                    <div className="img">
+                        <img src={selected} alt="" />
+                    </div>
+                    <div className="img">
+                        <img src={savat} alt="" />
+                    </div>
                 </div>
             </div>
             <hr />
